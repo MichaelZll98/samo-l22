@@ -6,7 +6,7 @@ import { Target, Clock, Brain, Layers3, Timer, Edit3, Check, X } from 'lucide-re
 interface Goal {
   id: string
   label: string
-  icon: React.ComponentType<{ size?: number; color?: string }>
+  icon: any
   color: string
   current: number
   target: number

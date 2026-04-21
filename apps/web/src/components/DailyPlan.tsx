@@ -15,7 +15,7 @@ interface PlanItem {
   status: 'suggested' | 'accepted' | 'done' | 'skipped'
 }
 
-const TYPE_ICON: Record<string, React.ComponentType<{ size?: number; color?: string }>> = {
+const TYPE_ICON: Record<string, any> = {
   study: BookOpen,
   quiz: Brain,
   flashcard: Layers3,
