@@ -78,6 +78,9 @@ importers:
       '@studio-l22/ui':
         specifier: workspace:*
         version: link:../../packages/ui
+      '@supabase/supabase-js':
+        specifier: ^2.39.0
+        version: 2.104.0
       '@tamagui/next-plugin':
         specifier: ^1.0.0
         version: 1.144.4(@babel/core@7.29.0)(next@14.1.0)(react-dom@18.3.1)(react-native@0.73.4)(react@18.2.0)(webpack@5.106.2)
