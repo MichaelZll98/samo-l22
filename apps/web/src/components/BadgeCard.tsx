@@ -22,7 +22,7 @@ export interface UserBadge {
   unlocked_at: string
 }
 
-const ICON_MAP: Record<string, React.ComponentType<{ size?: number; color?: string }>> = {
+const ICON_MAP: Record<string, any> = {
   Play, Flame, Zap, Brain, Layers3, Timer,
   FolderOpen, NotebookPen, MessageCircle, Award,
   Target, GraduationCap, Share2, Moon, Sunrise,
