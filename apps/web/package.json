@@ -16,7 +16,8 @@
     "@studio-l22/core": "workspace:*",
     "@studio-l22/types": "workspace:*",
     "@tamagui/next-plugin": "^1.0.0",
-    "lucide-react": "^0.344.0"
+    "lucide-react": "^0.344.0",
+    "@supabase/supabase-js": "^2.39.0"
   },
   "devDependencies": {
     "@types/node": "^20",
