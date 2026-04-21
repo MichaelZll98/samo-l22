@@ -1,0 +1,8 @@
+{
+  "name": "@studio-l22/types",
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

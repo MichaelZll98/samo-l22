@@ -1,0 +1,29 @@
+{
+  "name": "@studio-l22/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@studio-l22/ui": "workspace:*",
+    "@studio-l22/core": "workspace:*",
+    "@studio-l22/types": "workspace:*",
+    "@tamagui/next-plugin": "^1.0.0",
+    "lucide-react": "^0.344.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
+  }
+}
